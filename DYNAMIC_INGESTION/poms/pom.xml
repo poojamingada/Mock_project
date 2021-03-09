@@ -12,10 +12,10 @@
     <module>code/routines</module>
     <module>jobs/process/Mock_project/Sub_jobs/creating_jira_file_is_empty_0.1</module>
     <module>jobs/process/Mock_project/Sub_jobs/creating_jira_file_does_not_exist_0.1</module>
-    <module>jobs/process/Mock_project/Main_Job/columns_order_dynamic_feb_24_2021_0.1</module>
     <module>jobs/joblets/implicit_0.1</module>
     <module>jobs/joblets/audit_loger_0.1</module>
     <module>jobs/process/Mock_project/Sub_jobs/loading_files_to_db_0.1</module>
+    <module>jobs/process/Mock_project/Main_Job/dynamic_data_ingestion_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
