@@ -1,0 +1,62 @@
+package routines;
+
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class date_format {
+
+	private static final String[] formats2 = {"E MMM dd HH:mm:ss Z yyyy","yyyy-MM-dd HH:mm:ss", "MMddyyyy" ,"yyyyMMdd" , "dd-MM-yyyy", "yyyy-MM-dd", "MM/dd/yyyy",
+		    "yyyy/MM/dd", "dd MMM yyyy","yyyy-MMM-dd","yyyy/MMM/dd", "dd MMMM yyyy", "yyyyMMddHHmm", "yyyyMMdd HHmm", "dd-MM-yyyy HH:mm",
+		    "yyyy-MM-dd HH:mm", "MM/dd/yyyy HH:mm", "yyyy/MM/dd HH:mm", "dd MMM yyyy HH:mm", "dd MMMM yyyy HH:mm",
+		    "yyyyMMddHHmmss", "yyyyMMdd HHmmss", "dd-MM-yyyy HH:mm:ss", "yyyy-MM-dd HH:mm:ss", "MM/dd/yyyy HH:mm:ss", "yyyy/MM/dd HH:mm:ss", "dd MMM yyyy HH:mm:ss",
+		    "dd MMMM yyyy HH:mm:ss"};
+
+		public static Date method1(String date) throws ParseException {
+			String strDate = "";
+		    if (date != null ) {
+		        for (String parse : formats2) {
+		            try {
+		               
+		                DateFormat originalFormat = new SimpleDateFormat(parse);
+		                if(originalFormat !=null) {
+		                	DateFormat targetFormat = new SimpleDateFormat("yyyy-MM-dd");
+		                	java.util.Date date1 = originalFormat.parse(date);
+		                	if (date1!=null ){
+		                		strDate = targetFormat.format(date1);
+		                		break;
+		                	}
+		          
+		                }
+		                
+		              // SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+		               //strDate = formatter.format(sss);
+		            } catch (ParseException e) {
+		               // e.printStackTrace();
+		            }
+		        }
+		    }
+		    
+		    SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd");
+		   Date sss =(Date)sdf2.parse(strDate);
+		    return sss ;
+		}
+
+}
+	
+	/*public static String method1(String value) throws ParseException{
+		String myDate = value;
+		
+		DateFormat originalFormat = new SimpleDateFormat("dd-MM-yyyy");
+		DateFormat targetFormat = new SimpleDateFormat("yyyy-MM-dd");
+	java.util.Date date = originalFormat.parse(myDate);
+	
+java.lang.String formattedDate = targetFormat.format(date); 
+  
+           return formattedDate ;
+	}
+
+
+}*/

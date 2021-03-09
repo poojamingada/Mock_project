@@ -1,0 +1,79 @@
+package routines;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ * {talendTypes} Boolean
+ *
+ * {Category} User Defined
+ * This Routine performs DataType Validation
+ *
+ */
+public class DataType_Validation {
+	
+    public static Boolean type_check(String src_data, String DataType) throws Exception{
+    	Boolean VFlag=false; 
+    	
+    	if (src_data == null )
+    	{
+    		return true;
+    		
+    	}
+    	else {
+    	  //If DataType is INT
+    	if ( DataType.substring(0,3).equals("INT")) { 
+    		
+    		//System.out.println("var check. Lenght="+ src_data.length() +"  "+ Integer.parseInt(DataType.substring(4,DataType.length()-1)) );
+    		//Integer Length Check
+      	  if ( Integer.compare(src_data.length(),Integer.parseInt(DataType.substring(4,DataType.length()-1))) <= 0 ) {
+      		try 
+            { 
+                // Valid Integer Check
+                Integer.parseInt(src_data); 
+                VFlag= true;
+            }  
+            catch (NumberFormatException e)  
+            { 
+            	VFlag= false; 
+            } 
+      		  
+      		} }
+      else     //If Datatype is VARCHAR
+    	  if ( DataType.substring(0,7).equals("VARCHAR")) { 
+    		  
+    		  //System.out.println("var check. Lenght="+ src_data.length() +"  "+ Integer.parseInt(DataType.substring(8,DataType.length()-1)) );
+    		  //VARCHAR Length Check
+        	  if ( Integer.compare(src_data.length(),Integer.parseInt(DataType.substring(8,DataType.length()-1))) <= 0 ) { 
+        		  VFlag=true;  } }  
+    	
+    else    //If DataType is DATE
+    	 if ( DataType.substring(0,4).equals("DATE"))  {
+    	Date date = null;
+    	String format=DataType.substring(5,DataType.length()-1);
+    	
+    	  try {  
+    	    	 //DateFormat Check
+    	    	 SimpleDateFormat sdf = new SimpleDateFormat(format);
+    	    	    date = sdf.parse(src_data);
+    	    	    
+    	    	    //System.out.println("Formatted value= "+sdf.format(date));
+    	    	    if (!(src_data.equals(sdf.format(date)))) 
+    	    	    {
+    	    	        VFlag=false;
+    	    	    }
+    	    	    else
+    	    	    {
+    	    	    	 VFlag=true;
+    	    	    }
+    	    	
+    	     }
+    	     catch (Exception e)
+    	     {
+    	    	 VFlag=false;
+    	     } 
+    	} 
+    	
+             return VFlag;      	   
+       }
+    }
+}
