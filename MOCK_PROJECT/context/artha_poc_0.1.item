@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_hSwZUIFiEeufIq3CH0Wfzw">
+    <contextParameter comment="" name="artha_poc_Password" prompt="artha_poc_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:VCF08+tMdNj3AKo8X4vQa93SHvfDyD9crglUUCDplkQR" xmi:id="_hSwZUYFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_AdditionalParams" prompt="artha_poc_AdditionalParams?" promptNeeded="false" type="id_String" value="&quot;noDatetimeStringSync=true&quot;" xmi:id="_hSwZUoFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Port" prompt="artha_poc_Port?" promptNeeded="false" type="id_String" value="&quot;3306&quot;" xmi:id="_hSwZU4FiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Login" prompt="artha_poc_Login?" promptNeeded="false" type="id_String" value="&quot;root&quot;" xmi:id="_hSwZVIFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Server" prompt="artha_poc_Server?" promptNeeded="false" type="id_String" value="&quot;localhost&quot;" xmi:id="_hSwZVYFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Database" prompt="artha_poc_Database?" promptNeeded="false" type="id_String" value="&quot;validation&quot;" xmi:id="_hSwZVoFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_tablename" prompt="artha_poc_tablename?" promptNeeded="false" type="id_String" value="&quot;load_values&quot;" xmi:id="_hSwZV4FiEeufIq3CH0Wfzw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_hSwZWIFiEeufIq3CH0Wfzw">
+    <contextParameter comment="" name="artha_poc_Password" prompt="artha_poc_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:veYshMuKkH8D6qm0dHp0HDI32EpfN219hibDZif9eFw2" xmi:id="_hSwZWYFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_AdditionalParams" prompt="artha_poc_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true" xmi:id="_hSwZWoFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Port" prompt="artha_poc_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_hSwZW4FiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Login" prompt="artha_poc_Login?" promptNeeded="false" type="id_String" value="root" xmi:id="_hSwZXIFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Server" prompt="artha_poc_Server?" promptNeeded="false" type="id_String" value="localhost" xmi:id="_hSwZXYFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Database" prompt="artha_poc_Database?" promptNeeded="false" type="id_String" value="&quot;validation&quot;" xmi:id="_hSwZXoFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_tablename" prompt="artha_poc_tablename?" promptNeeded="false" type="id_String" value="" xmi:id="_hSwZX4FiEeufIq3CH0Wfzw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_hSwZYIFiEeufIq3CH0Wfzw">
+    <contextParameter comment="" name="artha_poc_Password" prompt="artha_poc_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:nm9CO7h9zeSDZ6cvOo704VWW2RkHHmei0UDnvYXT21Sd" xmi:id="_hSwZYYFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_AdditionalParams" prompt="artha_poc_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true" xmi:id="_hSwZYoFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Port" prompt="artha_poc_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_hSwZY4FiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Login" prompt="artha_poc_Login?" promptNeeded="false" type="id_String" value="root" xmi:id="_hSwZZIFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Server" prompt="artha_poc_Server?" promptNeeded="false" type="id_String" value="localhost" xmi:id="_hSwZZYFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Database" prompt="artha_poc_Database?" promptNeeded="false" type="id_String" value="&quot;validation&quot;" xmi:id="_hSwZZoFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_tablename" prompt="artha_poc_tablename?" promptNeeded="false" type="id_String" value="" xmi:id="_hSwZZ4FiEeufIq3CH0Wfzw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QA" xmi:id="_hSwZaIFiEeufIq3CH0Wfzw">
+    <contextParameter comment="" name="artha_poc_Password" prompt="artha_poc_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:VTrzLTMYAeNUFsMBeJrWkykjbxvyZL+I88eqyoXQxFLp" xmi:id="_hSwZaYFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_AdditionalParams" prompt="artha_poc_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true" xmi:id="_hSwZaoFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Port" prompt="artha_poc_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_hSwZa4FiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Login" prompt="artha_poc_Login?" promptNeeded="false" type="id_String" value="root" xmi:id="_hSwZbIFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Server" prompt="artha_poc_Server?" promptNeeded="false" type="id_String" value="localhost" xmi:id="_hSwZbYFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_Database" prompt="artha_poc_Database?" promptNeeded="false" type="id_String" value="&quot;validation&quot;" xmi:id="_hSwZboFiEeufIq3CH0Wfzw"/>
+    <contextParameter comment="" name="artha_poc_tablename" prompt="artha_poc_tablename?" promptNeeded="false" type="id_String" value="" xmi:id="_hSwZb4FiEeufIq3CH0Wfzw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7fd456f9-52c7-4b0c-819a-5b43d18f86be"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1aW+FcRO0bhOQicGM09KVdNZXREhT894ulY84NzfvpQx7v5UY3bfCuZJsmrrteQfygsuneYGpDsk
+Mb8SO+k6Rw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0c962955-7272-4c57-84d2-b96d2f8c7015"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rzgtrLn5NW5Qww4PUUhx28anqUSbtKsquSC5jn9V4PMp2PNylldwILRvB3BE07YIaiS+tEeaAX5s
+6EJ1KQmszg==</DigestValue></Reference></SignedInfo><SignatureValue>P8APLsMOm8aWskdjJbjHYqd+HKpWHcF9jFAjUDYjWrjwiKCLIULVXX2Ze0gFNsUJ5Tt7JevoPoov
+x6Fkc+qgmKPHpZFvVYQSG3OFDZZ3tjIhP56ipPF9YpAD71A2P+ZL8kJFQW/xZB5eDHES0AfBIIim
+3XFf/q6fx6jw06U9cn5Hk7s2G4KFeA+RauQ6nK4h4+SG8IJDp38VKfHj8QLg2rVd8h1t97oEvtGA
+bqmTI88XN6W0J2OMekQJRWYQ+W2OzClpqn1M9egBF9t6e7IlTA+FIng/3NnRKvoBNdgAu9CP70Cl
+9w99xTSQy/ZDQKM9xEso4AAJjXpzXm+WCORpcw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0c962955-7272-4c57-84d2-b96d2f8c7015" Target="#_7fd456f9-52c7-4b0c-819a-5b43d18f86be"><Timestamp>2021-03-10 05:36:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
